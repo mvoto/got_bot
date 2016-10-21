@@ -1,7 +1,7 @@
 defmodule GotBot.Handler do
   def perform(entry) do
-    splitten_entry = String.split(entry, " ")
-    if String.starts_with?(entry, "/") do
+    if !is_nil(entry) && String.starts_with?(entry, "/") do
+      splitten_entry = String.split(entry, " ")
       define_command(command: hd(splitten_entry), args: tl(splitten_entry))
     else
       know_nothing
