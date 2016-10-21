@@ -6,7 +6,7 @@ defmodule GotBot.Command do
       "Sorry Lord Commander, your therm failed, please try another one"
     else
       {:ok, name}  = Map.fetch(json, "name")
-      {:ok, title} = Map.fetch(json, "titles")
+      {:ok, title} = Map.fetch(json, "aliases")
 
       "#{name}, famous as #{hd(title)}"
     end

@@ -21,7 +21,7 @@ defmodule HandlerTest do
 
     test "calls valid char command" do
       use_cassette "got_character" do
-        expected_response = "Jon Snow, famous as Lord Commander of the Night's Watch"
+        expected_response = "Jon Snow, famous as Lord Snow"
         assert Handler.perform("/char Jon Snow") == expected_response
       end
     end
