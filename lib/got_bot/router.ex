@@ -12,8 +12,7 @@ defmodule GotBot.Router do
       text = data["message"]["text"]
       from = data["message"]["from"]["first_name"]
 
-      # final_message = GotBot.Handler.perform text
-      final_message = "Did you sent: #{text} to me, #{from} ?"
+      final_message = GotBot.Handler.perform text
       Nadia.send_message(id, final_message)
     end
   end
