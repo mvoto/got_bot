@@ -7,6 +7,7 @@ defmodule GotBot.Command do
     else
       {:ok, name}  = Map.fetch(json, "name")
       {:ok, title} = Map.fetch(json, "aliases")
+      if length(title) == 0, do: {:ok, title } = Map.fetch(json, "title")
 
       "#{name}, famous as #{hd(title)}"
     end
@@ -37,6 +38,6 @@ defmodule GotBot.Command do
     url = "http://www.anapioficeandfire.com/api/#{endpoint}?#{query_string}"
     {:ok, %HTTPoison.Response{status_code: 200, body: body}} = HTTPoison.get(url)
 
-    Poison.decode(body) |> elem(1) |> List.first
+    Poison.decode(body) |> elem(1) |> List.last
   end
 end
