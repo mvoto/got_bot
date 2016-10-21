@@ -5,7 +5,7 @@ defmodule GotBot.Router do
 
   post "/webhook" do
     {:ok, data, _none} = Plug.Conn.read_body(conn)
-    {:ok, data} = JSX.decode data
+    {:ok, data} = Poison.decode data
 
     if data["message"]["chat"] != nil do
       id   = data["message"]["chat"]["id"]
