@@ -1,6 +1,7 @@
 # GotBot
 
-**TODO: Add description**
+**This is for elixir studies purpose. A Telegram Bot that integrates the Ice and
+Fire(GoT) API**
 
 ## Installation
 
