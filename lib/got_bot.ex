@@ -1,0 +1,2 @@
+defmodule GotBot do
+end

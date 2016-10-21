@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "chat_id=191774605&text=Did+you+sent%3a+Hi+bot+%21+to+me%2c+Mauricio+%3f",
+      "headers": [],
+      "method": "post",
+      "options": {
+        "recv_timeout": 5000
+      },
+      "request_body": "",
+      "url": "https://api.telegram.org/bot264547582:AAGmgVpVNVpmz6mjgYp65tK2yd6iRTHW-nw/sendMessage"
+    },
+    "response": {
+      "body": "{\"ok\":true,\"result\":{\"message_id\":19,\"from\":{\"id\":264547582,\"first_name\":\"Game Of Thrones Bot\",\"username\":\"QuezGoTBoT\"},\"chat\":{\"id\":191774605,\"first_name\":\"Mauricio\",\"last_name\":\"Voto\",\"type\":\"private\"},\"date\":1477013221,\"text\":\"Did you sent: Hi bot ! to me, Mauricio ?\"}}",
+      "headers": {
+        "Server": "nginx/1.10.0",
+        "Date": "Fri, 21 Oct 2016 01:27:01 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "273",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+        "Access-Control-Expose-Headers": "Content-Length,Content-Type,Date,Server,Connection",
+        "Strict-Transport-Security": "max-age=31536000; includeSubdomains"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

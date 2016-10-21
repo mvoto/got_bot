@@ -1,0 +1,33 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "http://www.anapioficeandfire.com/api/characters?name=jon+snow"
+    },
+    "response": {
+      "body": "[\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/characters/583\",\r\n    \"name\": \"Jon Snow\",\r\n    \"gender\": \"Male\",\r\n    \"culture\": \"Northmen\",\r\n    \"born\": \"In 283 AC\",\r\n    \"died\": \"\",\r\n    \"titles\": [\r\n      \"Lord Commander of the Night's Watch\"\r\n    ],\r\n    \"aliases\": [\r\n      \"Lord Snow\",\r\n      \"Ned Stark's Bastard\",\r\n      \"The Snow of Winterfell\",\r\n      \"The Crow-Come-Over\",\r\n      \"The 998th Lord Commander of the Night's Watch\",\r\n      \"The Bastard of Winterfell\",\r\n      \"The Black Bastard of the Wall\",\r\n      \"Lord Crow\"\r\n    ],\r\n    \"father\": \"\",\r\n    \"mother\": \"\",\r\n    \"spouse\": \"\",\r\n    \"allegiances\": [\r\n      \"http://www.anapioficeandfire.com/api/houses/362\"\r\n    ],\r\n    \"books\": [\r\n      \"http://www.anapioficeandfire.com/api/books/5\"\r\n    ],\r\n    \"povBooks\": [\r\n      \"http://www.anapioficeandfire.com/api/books/1\",\r\n      \"http://www.anapioficeandfire.com/api/books/2\",\r\n      \"http://www.anapioficeandfire.com/api/books/3\",\r\n      \"http://www.anapioficeandfire.com/api/books/8\"\r\n    ],\r\n    \"tvSeries\": [\r\n      \"Season 1\",\r\n      \"Season 2\",\r\n      \"Season 3\",\r\n      \"Season 4\",\r\n      \"Season 5\",\r\n      \"Season 6\"\r\n    ],\r\n    \"playedBy\": [\r\n      \"Kit Harington\"\r\n    ]\r\n  }\r\n]",
+      "headers": {
+        "Date": "Fri, 21 Oct 2016 01:31:24 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d546d7eb0030ef322e1949a35088720f41477013484; expires=Sat, 21-Oct-17 01:31:24 GMT; path=/; domain=.anapioficeandfire.com; HttpOnly",
+        "Cache-Control": "no-transform, must-revalidate, max-age=0, private",
+        "Last-Modified": "Tue, 18 Oct 2016 08:40:52 GMT",
+        "ETag": "W/\"9d390239cdf547eea70ba958d9e16240\"",
+        "Vary": "Accept-Encoding",
+        "Link": "<http://www.anapioficeandfire.com/api/characters?name=jon%20snow&page=1&pageSize=10>; rel=\"first\", <http://www.anapioficeandfire.com/api/characters?name=jon%20snow&page=1&pageSize=10>; rel=\"last\"",
+        "X-AspNet-Version": "4.0.30319",
+        "X-Powered-By": "ASP.NET",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2f50f325e58c510a-MIA"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
