@@ -1,0 +1,33 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "http://www.anapioficeandfire.com/api/characters?name=joe+slow"
+    },
+    "response": {
+      "body": "[]",
+      "headers": {
+        "Date": "Fri, 21 Oct 2016 11:48:29 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=dac38dfb6076d4d2ced222117922758f21477050509; expires=Sat, 21-Oct-17 11:48:29 GMT; path=/; domain=.anapioficeandfire.com; HttpOnly",
+        "Cache-Control": "no-transform, must-revalidate, max-age=0, private",
+        "Last-Modified": "Fri, 21 Oct 2016 11:48:29 GMT",
+        "ETag": "W/\"39644d68d87443ed962eff6dd4e30502\"",
+        "Vary": "Accept-Encoding",
+        "Link": "<http://www.anapioficeandfire.com/api/characters?name=joe%20slow&page=1&pageSize=10>; rel=\"first\", <http://www.anapioficeandfire.com/api/characters?name=joe%20slow&page=1&pageSize=10>; rel=\"last\"",
+        "X-AspNet-Version": "4.0.30319",
+        "X-Powered-By": "ASP.NET",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2f547b1451f817fe-MIA"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

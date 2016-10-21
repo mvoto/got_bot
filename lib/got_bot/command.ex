@@ -2,20 +2,28 @@ defmodule GotBot.Command do
   def perform_char(query) do
     json = got_api_request("characters", "name=#{query}")
 
-    {:ok, name}  = Map.fetch(json, "name")
-    {:ok, title} = Map.fetch(json, "titles")
+    if is_nil json do
+      "Sorry Lord Commander, your therm failed, please try another one"
+    else
+      {:ok, name}  = Map.fetch(json, "name")
+      {:ok, title} = Map.fetch(json, "titles")
 
-    "#{name}, famous as #{hd(title)}"
+      "#{name}, famous as #{hd(title)}"
+    end
   end
 
   def perform_house(query) do
     json = got_api_request("houses", "name=#{query}")
 
-    {:ok, name}   = Map.fetch(json, "name")
-    {:ok, words}  = Map.fetch(json, "words")
-    {:ok, region} = Map.fetch(json, "region")
+    if is_nil json do
+      "Sorry Lord Commander, your therm failed, please try another one"
+    else
+      {:ok, name}   = Map.fetch(json, "name")
+      {:ok, words}  = Map.fetch(json, "words")
+      {:ok, region} = Map.fetch(json, "region")
 
-    "#{name}, from #{region} says #{words}"
+      "#{name}, from #{region} says #{words}"
+    end
   end
 
   def perform_gif(query) do

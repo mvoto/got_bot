@@ -1,7 +1,7 @@
 [
   {
     "request": {
-      "body": "chat_id=191774605&text=Did+you+sent%3a+Hi+bot+%21+to+me%2c+Mauricio+%3f",
+      "body": "chat_id=191774605&text=https%3a%2f%2fweirwoodleviathan.files.wordpress.com%2f2015%2f11%2funonothing.gif",
       "headers": [],
       "method": "post",
       "options": {
@@ -11,12 +11,12 @@
       "url": "https://api.telegram.org/bot264547582:AAGmgVpVNVpmz6mjgYp65tK2yd6iRTHW-nw/sendMessage"
     },
     "response": {
-      "body": "{\"ok\":true,\"result\":{\"message_id\":19,\"from\":{\"id\":264547582,\"first_name\":\"Game Of Thrones Bot\",\"username\":\"QuezGoTBoT\"},\"chat\":{\"id\":191774605,\"first_name\":\"Mauricio\",\"last_name\":\"Voto\",\"type\":\"private\"},\"date\":1477013221,\"text\":\"Did you sent: Hi bot ! to me, Mauricio ?\"}}",
+      "body": "{\"ok\":true,\"result\":{\"message_id\":65,\"from\":{\"id\":264547582,\"first_name\":\"Game Of Thrones Bot\",\"username\":\"QuezGoTBoT\"},\"chat\":{\"id\":191774605,\"first_name\":\"Mauricio\",\"last_name\":\"Voto\",\"type\":\"private\"},\"date\":1477048452,\"text\":\"https:\\/\\/weirwoodleviathan.files.wordpress.com\\/2015\\/11\\/unonothing.gif\",\"entities\":[{\"type\":\"url\",\"offset\":0,\"length\":68}]}}",
       "headers": {
         "Server": "nginx/1.10.0",
-        "Date": "Fri, 21 Oct 2016 01:27:01 GMT",
+        "Date": "Fri, 21 Oct 2016 11:14:12 GMT",
         "Content-Type": "application/json",
-        "Content-Length": "273",
+        "Content-Length": "357",
         "Connection": "keep-alive",
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET, POST, OPTIONS",

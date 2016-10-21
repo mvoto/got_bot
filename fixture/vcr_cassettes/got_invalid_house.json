@@ -1,0 +1,33 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "http://www.anapioficeandfire.com/api/houses?name=start"
+    },
+    "response": {
+      "body": "[]",
+      "headers": {
+        "Date": "Fri, 21 Oct 2016 11:47:33 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d5f412bc922df908dd93d232161b3cc371477050453; expires=Sat, 21-Oct-17 11:47:33 GMT; path=/; domain=.anapioficeandfire.com; HttpOnly",
+        "Cache-Control": "no-transform, must-revalidate, max-age=0, private",
+        "Last-Modified": "Fri, 21 Oct 2016 11:47:33 GMT",
+        "ETag": "W/\"d6ed824f2f014d53a4593a2c70d7f7cd\"",
+        "Vary": "Accept-Encoding",
+        "Link": "<http://www.anapioficeandfire.com/api/houses?name=start&page=1&pageSize=10>; rel=\"first\", <http://www.anapioficeandfire.com/api/houses?name=start&page=1&pageSize=10>; rel=\"last\"",
+        "X-AspNet-Version": "4.0.30319",
+        "X-Powered-By": "ASP.NET",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2f5479b697985320-MIA"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
