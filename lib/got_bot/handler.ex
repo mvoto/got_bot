@@ -16,7 +16,7 @@ defmodule GotBot.Handler do
     query = Enum.join(args, "+") |> String.downcase
 
     if query == "" do
-      GotBot.Comman.perform_gif("white+walkers")
+      GotBot.Command.perform_gif("white+walkers")
     else
       command_call(cmd, query)
     end

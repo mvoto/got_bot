@@ -32,7 +32,7 @@ defmodule RouterTest do
 
         {:ok, parsed_body} = JSX.decode(conn.resp_body)
 
-        assert parsed_body["text"] == "Did you sent: Hi bot ! to me, Mauricio ?"
+        assert parsed_body["text"] == "https://weirwoodleviathan.files.wordpress.com/2015/11/unonothing.gif"
       end
     end
   end
