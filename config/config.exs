@@ -5,6 +5,7 @@ use Mix.Config
 config :nadia, token: System.get_env "BOT_TOKEN"
 
 config :trot, :router, GotBot.Router
+config :trot, :port, System.get_env("PORT")
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
