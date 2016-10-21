@@ -14,7 +14,7 @@ defmodule GotBot.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger, :trot, :nadia]]
+    [applications: [:logger, :trot, :nadia, :exjsx]]
   end
 
   # Dependencies can be Hex packages:
